@@ -3,7 +3,6 @@ import { useState } from "react";
 export default function LoginForm() {
   const [password, setPassword] = useState("");
 
-  // Validaciones
   const rules = {
     length: password.length >= 8,
     uppercase: /[A-Z]/.test(password),
@@ -58,7 +57,6 @@ export default function LoginForm() {
   );
 }
 
-// Componente de validación visual
 function PasswordRule({ label, valid }) {
   return (
     <li className={`flex items-center gap-2 ${valid ? "text-green-600" : "text-red-500"}`}>
