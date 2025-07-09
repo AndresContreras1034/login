@@ -12,8 +12,8 @@ export default function LoginForm() {
   };
 
   return (
-    <div className="w-full max-w-md p-8 bg-white rounded-2xl shadow-2xl">
-      <h2 className="text-2xl font-bold mb-6 text-center">Iniciar sesión</h2>
+    <div className="w-full max-w-md p-8 bg-white rounded-2xl shadow-xl">
+      <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Iniciar sesión</h2>
 
       <form className="space-y-5">
         <div>
